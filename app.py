@@ -7,6 +7,8 @@ import os
 import sys
 import threading
 
+# auto-py-to-exe to create installer
+
 # Get releative path (used to set app icon in a way that doesn't break when packaged by pyinstaller)
 def resource_path(relative_path):
     try:
